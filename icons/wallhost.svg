@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2f77"/>
+      <stop offset="0.55" stop-color="#7a3fa0"/>
+      <stop offset="1" stop-color="#f08a5d"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3a8c"/>
+      <stop offset="1" stop-color="#2a2160"/>
+    </linearGradient>
+    <clipPath id="tile">
+      <rect x="8" y="8" width="112" height="112" rx="26"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect x="8" y="8" width="112" height="112" fill="url(#sky)"/>
+    <circle cx="86" cy="42" r="13" fill="#ffe7b0"/>
+    <circle cx="34" cy="30" r="1.6" fill="#fff" opacity="0.8"/>
+    <circle cx="52" cy="22" r="1.2" fill="#fff" opacity="0.7"/>
+    <circle cx="24" cy="50" r="1.1" fill="#fff" opacity="0.6"/>
+    <path d="M8 92 L38 62 L58 80 L80 56 L120 90 L120 120 L8 120 Z" fill="url(#far)"/>
+    <path d="M8 104 C 30 94, 46 112, 68 102 S 104 92, 120 100 L120 120 L8 120 Z" fill="#1a1440"/>
+  </g>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="25.5" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+</svg>

@@ -1,0 +1,7 @@
+__pycache__/
+# local build of linux-wallpaperengine (several GB); the package depends on the AUR one
+aur/
+packaging/src/
+packaging/pkg/
+packaging/wallhost-src/
+packaging/*.pkg.tar.*

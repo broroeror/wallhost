@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Wallpapers
+GenericName=Animated Wallpaper Picker
+Comment=Choose animated wallpapers for each screen
+Exec=wallhost-picker
+Icon=wallhost
+Categories=Settings;DesktopSettings;Qt;
+Keywords=wallpaper;animated;live;background;wallhost;
+StartupNotify=true

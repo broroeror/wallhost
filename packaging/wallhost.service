@@ -1,0 +1,13 @@
+[Unit]
+Description=wallhost - animated wallpapers behind the Plasma desktop
+PartOf=graphical-session.target
+After=graphical-session.target plasma-kwin_wayland.service
+
+[Service]
+ExecStart=/usr/bin/wallhost run
+Restart=on-failure
+RestartSec=5
+RestartPreventExitStatus=3
+
+[Install]
+WantedBy=graphical-session.target
